@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto Mono",
+    monospace;
+    text-align: center;
+    background-image: 
+    url("https://img.freepik.com/fotos-gratis/nave-espacial-brilhante-orbita-planeta-em-galaxia-estrelada-gerada-por-ia_188544-9655.jpg?w=1380&t=st=1700013839~exp=1700014439~hmac=1b31690a8b90cd7b8b6a73c272a382fa571db078f1c54969ab3bcf33f5486989");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1280;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    background-color: #131A36;
+    max-width: 500px;
+    height: 450px;
+    padding:  40px;
+    border-radius: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    width: 200px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body > img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+/* .resultado {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    max-width: 300px; */
+
+
+.input-single {
+    width: 400px;
+    padding: 10;
+}
+
+.resultado {
+    color: #ffffff;
+    border-color: #ffffff;
+    border: 1px;
+    text-align: center;
+    align-items: center;
+   
+}
